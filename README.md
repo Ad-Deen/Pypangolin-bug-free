@@ -148,4 +148,4 @@ if __name__ == '__main__':
 - **`format_list()`**: The `pypangolin` C++ wrapper expects `std::vector<Eigen::Matrix<float,3,1>>`. In Python, this translates to a list of individual 3x1 NumPy arrays, not a single Nx3 matrix.
 - **OpenGL Context**: `PyOpenGL` (`from OpenGL.GL import *`) functions will work correctly as long as they are called *after* `CreateWindowAndBind` and within the same thread.
 
-Would you like me to help you create a **`setup.py`** or a **`requirements.txt`** to ensure these dependencies are automatically handled for your team?
+
