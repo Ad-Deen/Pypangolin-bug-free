@@ -148,4 +148,5 @@ if __name__ == '__main__':
 - **`format_list()`**: The `pypangolin` C++ wrapper expects `std::vector<Eigen::Matrix<float,3,1>>`. In Python, this translates to a list of individual 3x1 NumPy arrays, not a single Nx3 matrix.
 - **OpenGL Context**: `PyOpenGL` (`from OpenGL.GL import *`) functions will work correctly as long as they are called *after* `CreateWindowAndBind` and within the same thread.
 
+### For High-Performance SLAM Visualizer: Python-to-C++ Shared Memory Bridge refer [here](https://github.com/Ad-Deen/Py2-Pangolin-GPU-Viz.git)
 
