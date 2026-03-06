@@ -30,7 +30,8 @@ This step ensures the Python interpreter you are currently using is the one Pang
 
 Bash
 
-`# Create and enter build directory
+```
+# Create and enter build directory
 mkdir build && cd build
 
 # Configure with explicit Python path
@@ -45,7 +46,7 @@ cmake --build . -j8
 
 # Install the Python bindings directly to your python environment
 cmake --build . -t pypangolin_pip_install`
-
+```
 ---
 
 ### Part 2: Verified Implementation Example
@@ -56,7 +57,8 @@ The following code is specifically written to handle the **Strict Binding** requ
 
 Python
 
-`import pypangolin as pango
+```
+import pypangolin as pango
 from OpenGL.GL import *
 import numpy as np
 
@@ -135,7 +137,7 @@ def main():
 
 if __name__ == '__main__':
     main()`
-
+```
 ---
 
 ### Key Compatibility Notes
