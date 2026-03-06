@@ -12,18 +12,20 @@ Execute these commands in your terminal to install the necessary dependencies an
 
 Bash
 
-`git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
+```
+git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin`
-
+```
 ### 2. Install Prerequisites
 
 Bash
 
-`# Get the core tools and GL development headers
+```
+# Get the core tools and GL development headers
 sudo apt update
 sudo apt install cmake pkg-config libgl1-mesa-dev libglew-dev libwayland-dev libx11-dev \
                  python3-dev python3-pip pybind11-dev`
-
+```
 ### 3. Build & Python Integration
 
 This step ensures the Python interpreter you are currently using is the one Pangolin binds to.
